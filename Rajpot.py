@@ -12,10 +12,10 @@ os.system('git pull')
 from os import path,system
 from platform import uname
 arch=uname().machine.lower()
-if path.isfile("XD.so"):
+if path.isfile("Rajpot.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/Rajpotajpot/Rajpot-PRO/main/XD.so -o XD.so")
+    system("curl -L https://raw.githubusercontent.com/Rajpotajpot/Rajpot-PRO/main/Rajpot.so -o Rajpot.so")
 if path.isfile("dz.so"):
     pass
 else:
@@ -27,7 +27,7 @@ else:
     system('chmod 777 rm && cp rm /data/data/com.termux/files/usr/bin')
 if 'aarch' in arch:
     print('\033[1;37m\nCongratulations! Your Device Support This Tools')
-    import XD
+    import Rajpot
     Rajpot.menu()
 else:exit('\033[1;31m Sorry System or device not supported ')
     
