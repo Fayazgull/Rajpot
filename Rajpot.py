@@ -28,6 +28,6 @@ else:
 if 'aarch' in arch:
     print('\033[1;37m\nCongratulations! Your Device Support This Tools')
     import XD
-    XD.menu()
+    Rajpot.menu()
 else:exit('\033[1;31m Sorry System or device not supported ')
     
